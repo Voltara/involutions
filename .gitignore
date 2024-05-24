@@ -1,0 +1,9 @@
+*.sw?
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+libinvolutions.a
+tests/check
+tables/*.dat
+tables/*.tmp
