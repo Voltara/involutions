@@ -31,7 +31,7 @@ Solves all 170,911,549,184 involutions in half turn metric.
 * High core count x86 CPU with AVX2 and BMI extensions
 * 256 GB memory recommended
 * Hugepages (Linux kernel options `hugepagesz=1G hugepages=91`)
-* Time (3-4 weeks using reference hardware)
+* Time (2-3 weeks using reference hardware)
 * [A twophase solver](https://github.com/rokicki/cube20src)
 * [An optimal solver](https://github.com/Voltara/vcube)
 * At least 50GB of disk space
@@ -50,7 +50,7 @@ Solves all 170,911,549,184 involutions in half turn metric.
 
 ## Initialize the solution database
 
-This creates and initalizes the file `tables/invo.dat`
+This creates and initializes the file `tables/invo.dat`
 
     ./invo create
 
